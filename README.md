@@ -1,31 +1,60 @@
-<<<<<<< HEAD
-# Movie-Review-App
-=======
-# MovieReviewApp
+# Movie Review App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+## Overview
 
-## Development server
+The **Movie Review App** is an interactive web application designed to allow users to submit and review movies. Built with Angular and TypeScript, this application enhances user engagement and interaction by providing a dynamic and responsive interface for movie reviews.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Interactive UI**: Engaging user interface developed with Angular and TypeScript.
+- **Movie Reviews**: Users can submit and view movie reviews.
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **User Interaction**: Enhanced features to encourage user interaction and review submissions.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- **Frontend**:
+  - Angular
+  - TypeScript
+  - HTML5
+  - CSS3
+  - Bootstrap
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js
+- npm
 
-## Running end-to-end tests
+### Setup
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/movie-review-app.git
+2. Navigate to the project directory:
+   ```bash
+   cd movie-review-app
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the Angular application:
+   ```bash
+   npm start
+### Usage
 
-## Further help
+- **Frontend**: Open [http://localhost:4200](http://localhost:4200) in your browser to access the application.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
->>>>>>> 70f5a01 (initial commit)
+### Contributing
+
+Feel free to fork the repository and submit pull requests. For any issues or feature requests, please open an issue in the GitHub repository.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### Acknowledgments
+
+- Angular for the frontend framework.
+- TypeScript for static typing and enhanced development experience.
+- Bootstrap for responsive design and styling.
