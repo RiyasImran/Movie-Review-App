@@ -1,0 +1,24 @@
+<div class="logo-container">
+    <img class="film" src="assets/images/movie-review.svg" alt="">
+    <div class="logo">Riyas reviews</div>
+    <div class="desc">
+        Raters is a simple and fun way to discover great movies based on reviews 
+        from people whose movie taste you trust. Rate, comment and share your 
+        reviews and get instant movie recommendations from friends and the Raters 
+        community! Raters suggests 250+ platforms to watch your movie of choice.
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">User Name</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="userName">
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="password">
+        </div>
+        <div class="btn-container">
+            <div class="error">{{errorMsg}}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+    </div>
+</div>
